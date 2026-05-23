@@ -9,13 +9,24 @@ Quick reference sheets for technologies I work with regularly. Each sheet covers
 ### Frameworks
 | Sheet | Focus |
 |---|---|
-| [React.js](frameworks/reactjs.md) | Hooks, state, component patterns, LCEL equivalents |
+| [React.js](frameworks/reactjs.md) | Hooks, state, component patterns |
 | [LangChain](frameworks/langchain.md) | LCEL, RAG chains, retrievers, agents, memory |
 
 ### Cloud
 | Sheet | Focus |
 |---|---|
 | [AWS](cloud/aws.md) | S3, Lambda, API Gateway, ECS, ECR, CloudWatch, SageMaker |
+
+### Infra
+| Sheet | Focus |
+|---|---|
+| [Kubernetes](infra/kubernetes.md) | Pods, Deployments, Services, Ingress, ConfigMaps, HPA |
+| [Terraform](infra/terraform.md) | Providers, resources, variables, modules, state, for_each |
+
+### Languages
+| Sheet | Focus |
+|---|---|
+| [Rust](languages/rust.md) | Ownership, borrowing, traits, enums, async, serde |
 
 ### ML / AI
 | Sheet | Focus |
@@ -26,6 +37,11 @@ Quick reference sheets for technologies I work with regularly. Each sheet covers
 | Sheet | Focus |
 |---|---|
 | [Pytest](testing/pytest.md) | Fixtures, parametrize, mocking, FastAPI testing, coverage |
+
+### Tools
+| Sheet | Focus |
+|---|---|
+| [Neovim](tools/nvim.md) | Modes, motions, text objects, macros, Lua config, plugins |
 
 ---
 
@@ -53,3 +69,4 @@ Each cheatsheet follows this structure:
 - `ai/ragas.md`
 - `infra/docker.md`
 - `infra/fastapi.md`
+- `languages/go.md`
