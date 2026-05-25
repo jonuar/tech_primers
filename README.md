@@ -11,11 +11,18 @@ Quick reference sheets for technologies I work with regularly. Each sheet covers
 |---|---|
 | [React.js](frameworks/reactjs.md) | Hooks, state, component patterns |
 | [LangChain](frameworks/langchain.md) | LCEL, RAG chains, retrievers, agents, memory |
+| [FastAPI + Pydantic](frameworks/fastapi.md) | Routing, DI, Pydantic models, lifespan, async, routers |
+
+### AI / Vector
+| Sheet | Focus |
+|---|---|
+| [pgvector](ai/pgvector.md) | Vector type, distance operators, HNSW/IVFFlat, hybrid search, LangChain |
 
 ### Cloud
 | Sheet | Focus |
 |---|---|
 | [AWS](cloud/aws.md) | S3, Lambda, API Gateway, ECS, ECR, CloudWatch, SageMaker |
+| [GCP Associate Cert](cloud/gcp-associate.md) | gcloud CLI, compute, storage, networking, IAM, exam tips |
 
 ### Infra
 | Sheet | Focus |
@@ -68,5 +75,4 @@ Each cheatsheet follows this structure:
 - `ai/ollama.md`
 - `ai/ragas.md`
 - `infra/docker.md`
-- `infra/fastapi.md`
 - `languages/go.md`
