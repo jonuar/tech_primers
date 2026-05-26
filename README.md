@@ -11,9 +11,12 @@ Quick reference sheets for technologies I work with regularly. Each sheet covers
 |---|---|
 | [React.js](frameworks/reactjs.md) | Hooks, state, component patterns |
 | [LangChain](frameworks/langchain.md) | LCEL, RAG chains, retrievers, agents, memory |
+| [LangGraph](frameworks/langgraph.md) | State, nodes, conditional edges, tool-calling loop, HITL, persistence |
+| [CrewAI](frameworks/crewai.md) | Agents, tasks, crews, tools, flows, memory, output models |
 | [FastAPI + Pydantic](frameworks/fastapi.md) | Routing, DI, Pydantic models, lifespan, async, routers |
+| [Spring Boot](frameworks/springboot.md) | DI, REST controllers, JPA, validation, security, testing |
 
-### AI / Vector
+### Storage
 | Sheet | Focus |
 |---|---|
 | [pgvector](ai/pgvector.md) | Vector type, distance operators, HNSW/IVFFlat, hybrid search, LangChain |
@@ -33,6 +36,8 @@ Quick reference sheets for technologies I work with regularly. Each sheet covers
 ### Languages
 | Sheet | Focus |
 |---|---|
+| [Go](languages/go.md) | Types, interfaces, goroutines, channels, error handling, Gin |
+| [Java](languages/java.md) | Modern Java 17–21, records, streams, optionals, virtual threads |
 | [Rust](languages/rust.md) | Ownership, borrowing, traits, enums, async, serde |
 
 ### ML / AI
@@ -67,7 +72,6 @@ Each cheatsheet follows this structure:
 
 ## Backlog
 
-- `frameworks/langgraph.md`
 - `ml/mlflow.md`
 - `ml/sagemaker.md`
 - `ai/chromadb.md`
@@ -75,4 +79,3 @@ Each cheatsheet follows this structure:
 - `ai/ollama.md`
 - `ai/ragas.md`
 - `infra/docker.md`
-- `languages/go.md`
