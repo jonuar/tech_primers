@@ -1,4 +1,4 @@
-# Tech Cheatsheets
+# Tech Primerss
 
 Quick reference sheets for technologies I work with regularly. Each sheet covers: mental model, install/setup, core concepts with annotated code, most-used patterns, and gotchas.
 
@@ -16,7 +16,7 @@ Quick reference sheets for technologies I work with regularly. Each sheet covers
 | [FastAPI + Pydantic](frameworks/fastapi.md) | Routing, DI, Pydantic models, lifespan, async, routers |
 | [Spring Boot](frameworks/springboot.md) | DI, REST controllers, JPA, validation, security, testing |
 
-### Storage
+### AI / Vector
 | Sheet | Focus |
 |---|---|
 | [pgvector](ai/pgvector.md) | Vector type, distance operators, HNSW/IVFFlat, hybrid search, LangChain |
@@ -26,6 +26,14 @@ Quick reference sheets for technologies I work with regularly. Each sheet covers
 |---|---|
 | [AWS](cloud/aws.md) | S3, Lambda, API Gateway, ECS, ECR, CloudWatch, SageMaker |
 | [GCP Associate Cert](cloud/gcp-associate.md) | gcloud CLI, compute, storage, networking, IAM, exam tips |
+
+### Databases
+| Sheet | Focus |
+|---|---|
+| [PostgreSQL](databases/postgresql.md) | DDL, window functions, CTEs, JSONB, EXPLAIN, transactions |
+| [MySQL](databases/mysql.md) | InnoDB, indexes, joins, partitioning, replication basics |
+| [PL/SQL](databases/plsql.md) | Blocks, procedures, functions, packages, cursors, exceptions |
+| [Redis](databases/redis.md) | Strings, hashes, lists, sets, sorted sets, pub/sub, streams, Lua |
 
 ### Infra
 | Sheet | Focus |
@@ -39,6 +47,7 @@ Quick reference sheets for technologies I work with regularly. Each sheet covers
 | [Go](languages/go.md) | Types, interfaces, goroutines, channels, error handling, Gin |
 | [Java](languages/java.md) | Modern Java 17–21, records, streams, optionals, virtual threads |
 | [Rust](languages/rust.md) | Ownership, borrowing, traits, enums, async, serde |
+| [TypeScript](languages/typescript.md) | Types, interfaces, generics, utility types, narrowing, decorators |
 
 ### ML / AI
 | Sheet | Focus |
